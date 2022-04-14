@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+body{
+    font-family: "Trirong", serif;
+    max-width: 50%;
+    margin: auto;
+    color: gray;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.logoimage{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.title{
+    flex: 1;
+    margin-left: 22px;
+}
+.name{
+    color: #555;
+}
+.color{
+    color: coral;
+}
+.qualification{
+    letter-spacing: 1px;
+}
+.hrline{
+    border: 1px solid coral;
+}
+.table-heading{
+    min-width: 300px;
+    display: block;
+}
+.table-intro{
+    color: coral;
+    min-width: 20px;
+}
+.marginfix{
+    margin-top: 20px;
+    
+}
+.jobheading{
+    font-size: 20px;
+    line-height: 25px;
+}
+.jobduration{
+    font-weight: 300px;
+    line-height: 25px;
+}
+.jobdescreption{
+    margin-top: 30px;
+}
